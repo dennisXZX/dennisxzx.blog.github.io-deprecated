@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JSX Spread Attribute
+title: PropTypes is now in prop-types package
 ---
 
 Today I got a warming from React saying:
