@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javascript Spread Operator
-tags: [javascript]
+categories: [javascript]
 ---
 
 Before we have the `...` spread operator, we rely on the hidden parameter `arguments` to deal with dynamic list of arguments.

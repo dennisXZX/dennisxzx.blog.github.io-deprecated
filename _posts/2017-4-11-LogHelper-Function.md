@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Log Helper Function
-tags: [javascript]
+categories: [javascript]
 ---
 Logging something out to console is a classic way to debug your program. I bumped into a situation today where I need to log out a message in an array chain. 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JSX Spread Attribute
-tags: [react]
+categories: [react]
 ---
 
 Say you want to pass all the properties of an object down to a child component, what you would normally do is something like:

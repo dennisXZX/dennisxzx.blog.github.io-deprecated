@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Functional Programming in Javascript
-tags: [javascript]
+categories: [javascript]
 ---
 
 Below is a simple example to illustrate the power of functional programming. The calculator() function returns a doOperation() function, which returns itself. This design pattern makes the function chain call possible.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Blog, New Challenge...
-tags: [life]
+categories: [life]
 ---
 
 Digitally, I moved from Blogspot to Github. Physically, I moved from China to Australia. I think I have already won a battle the moment I decided to jump out of my comfort zone to pursue what I really want - to be a geek.
