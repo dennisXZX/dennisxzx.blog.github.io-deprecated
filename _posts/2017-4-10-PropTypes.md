@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PropTypes is now in prop-types package
+tags: [react]
 ---
 
 Today I got a warming from React saying:

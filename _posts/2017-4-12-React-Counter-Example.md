@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React Counter Example
-tags: react
+tags: [react]
 ---
 
 This example can be run in [jscomplete.com/repl](https://jscomplete.com/repl), which is a zero-configuration playground for writing React.
