@@ -11,7 +11,7 @@ Example with the `arguments` property.
 function sum() {
   let sum = 0;
   for(let i=0; i<arguments.length; i++) {
-      sum += arguments[i];
+    sum += arguments[i];
   }
   return sum;
 }
@@ -22,7 +22,7 @@ However, one problem with the above approach is that the `arguments` object is n
 function sum() {
   let sum = 0;
   Array.prototype.forEach.call(arguments, (num) => {
-	sum += num;
+    sum += num;
   })
   return sum;
 }
@@ -32,7 +32,7 @@ Now comes the life saver `...`.
 function sum(...args) {
   let sum = 0;
   args.forEach((num) => {
-	sum += num;
+    sum += num;
   })
   return sum;
 }
@@ -40,6 +40,6 @@ function sum(...args) {
 Bonus... for the one-liner lover.
 ```
 function sum(...args) {
-	return args.reduce((curr, next) => curr + next);
+  return args.reduce((curr, next) => curr + next);
 }
 ```
