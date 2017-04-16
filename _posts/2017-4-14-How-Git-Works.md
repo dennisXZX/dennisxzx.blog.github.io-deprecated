@@ -31,7 +31,7 @@ When you try to merge two branches using the command **git merge branch-name**, 
 
 One particular 'scary' case is when you checkout a commit, which will result in a **detached HEAD**. If you work in a detached HEAD mode, all your commits will be destroyed by the garbage collector if you do not give it a branch name using **git branch branch-name**. The reason that these detached commits would be earsed is that you would have no way to refer to them in the future unless you remember exactly their SHA1 hash keys, which is just impossible for any human being.
 
-![Git Merge](../images/2017/git-merge.jpg)
+![Git Merge](../images/2017/git-merge.png)
 
 ## Rebase
 
@@ -39,4 +39,4 @@ Rebase is another way of 'merging'. To put it simply, rebase moves commits of on
 
 To sum up, merges preserve history. Rebases refactor history. 
 
-![Git Rebase](../images/2017/git-rebase.jpg)
+![Git Rebase](../images/2017/git-rebase.png)
