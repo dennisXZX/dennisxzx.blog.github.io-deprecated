@@ -4,7 +4,7 @@ title: Selection Sort
 categories: [algorithm]
 ---
 
-Let's look at the selection sort, which has a big O notation of `O(n<sup>2</sup>)`. It's not the fastest sorting algorithm, but it paves the way to understand more complicated sorting solutions.
+Let's look at the selection sort, which has a big O notation of `O(n^2)`. It's not the fastest sorting algorithm, but it paves the way to understand more complicated sorting solutions.
 
 Key points:
 
