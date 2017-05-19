@@ -26,9 +26,12 @@ var person2 = new Person();
 
 Every time a function is created (Person), it would automatically get a prototype property, which is an object (Person Prototype). The Person Prototype gets a `constructor` property by defult, which points back to the function on which it is a property.
 
-Any Person instance (person1, person2) has a hidden link to its constructor's prototype (implemented by many browsers as `__proto__` property). It's important to note that the instance of Person has no direct connection with its constructor.
+Any Person instance (person1, person2) has a hidden link to its constructor's prototype (implemented by many browsers as `__proto__` property). Also, it's possible to access an instance's constructor vis the `constructor` property (person1.constructor).
 
 ```
+person1.constructor === Person
+person1.constructor.prototype === Person.prototype
+person1.__proto__ === Person.prototype
 person1.__proto__ === person1.constructor.prototype
 ```
 
