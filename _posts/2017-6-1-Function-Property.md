@@ -49,19 +49,19 @@ for (let prop in store.cache) {
 
 ```
 function isPrime(value) {
-		// initialize the answers object if there isn't one
+	// initialize the answers object if there isn't one
     if (!isPrime.answers) {
         isPrime.answers = {};
     }
 
-		// check if the result is already in answers object
+	// check if the result is already in answers object
     if (isPrime.answers[value] !== undefined) {
         return isPrime.answers[value];
     }
 
     var prime = value !== 1;
 
-		// calculate the prime
+	// calculate the prime
     for (var i = 2; i < value; i++) {
         if (value % i === 0) {
             prime = false;
@@ -69,10 +69,10 @@ function isPrime(value) {
         }
     }
     
-		// store the result into answers object
+	// store the result into answers object
     isPrime.answers[value] = prime;
 
-		return prime;
+	return prime;
 }
 
 // calculate the result and stores it in answers object
