@@ -11,7 +11,7 @@ To create a react app, we first install node.js and NPM to manage our dependenci
 After that, we need to install a whole bunch of packages for the react project.
 
 ```
-npm-install --save react react-dom
+npm-install --save react react-dom prop-types
 
 npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react css-loader style-loader sass-loader node-sass html-webpack-plugin webpack webpack-dev-server
 ```
