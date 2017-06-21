@@ -69,7 +69,7 @@ After the configuration of Webpack and Babel, we set up an NPM script to kick st
 ```
   "scripts": {
     "start": "webpack-dev-server --open",
-		"build": "webpack"
+    "build": "webpack"
   }
 ```
 
