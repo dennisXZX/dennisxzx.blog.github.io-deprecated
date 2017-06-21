@@ -13,7 +13,7 @@ After that, we need to install a whole bunch of packages for the react project.
 ```
 npm-install --save react react-dom prop-types
 
-npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react css-loader style-loader sass-loader node-sass html-webpack-plugin webpack webpack-dev-server
+npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-plugin-transform-class-properties css-loader style-loader sass-loader node-sass html-webpack-plugin webpack webpack-dev-server
 ```
 
 In order to set up an automated build process, we need to config our webpack.
@@ -60,7 +60,11 @@ Now let's look at our `.babelrc` file. Babel would transform all Javascript to b
 	"presets": [
 		"env",
 		"react"
-	]
+	],
+	"plugins": [
+		// transform-class-perperties plugin makes it possible to use class property syntax
+		"transform-class-properties"
+	]	
 }
 ```
 
