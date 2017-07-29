@@ -34,12 +34,12 @@ addFive(10);
 When the line `var addFive = curry(add, 5);` is executed, the following happens:
 
 1. slice variable stores a reference to the slice method from the Array prototype.
-2. stored_args variables stores an all the arguments except for the function, which is 5.
+2. stored_args variables stores all the arguments except for the function passed in, which is 5.
 3. returns a function, which has access to slice and stored_args variables through closure.
 
 When the line `addFive(10);` is executed, the following happens:
 
-1. new_args stores all the arguments, which is 10.
+1. new_args stores all the arguments passed in, which is 10.
 2. args stores values from both stored_args and args, which is 5 and 10.
 3. returns the result of a function call using `apply` with all the arguments.
 
