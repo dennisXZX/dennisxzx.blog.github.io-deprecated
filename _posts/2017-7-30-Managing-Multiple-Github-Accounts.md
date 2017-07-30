@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript Currying
+title: Managing Multiple Github Accounts
 categories: [Github]
 ---
 
