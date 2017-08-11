@@ -10,8 +10,8 @@ Currying has been one of the topics that baffled me for a long time. In order to
 function curry(fn) {
   // store the slice method
   const slice = Array.prototype.slice;
-	// store the arguments except for the first one
-	// equivalent to calling arguments.slice(1)
+  // store the arguments except for the first one
+  // equivalent to calling arguments.slice(1)
   const stored_args = slice.call(arguments, 1);    
   
   return function () {
